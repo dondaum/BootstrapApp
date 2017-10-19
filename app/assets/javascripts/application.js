@@ -15,3 +15,21 @@
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
+
+
+$(document).ready(function(){
+
+   $('[data-toggle="popover"]').popover();
+
+   $('[data-toggle="tooltip"]').tooltip();
+
+   $('.carousel').carousel({
+     interval: 10000 
+   })
+
+ });
+
+
+//$(function () {
+//  $('[data-toggle="popover"]').popover()
+//})
